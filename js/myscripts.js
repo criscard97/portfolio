@@ -8,7 +8,7 @@ document.getElementById("copyEmail").addEventListener("click", () => {
         message: 'Correo copiado al portapapeles!',
         position: 'topCenter',
         icon:'',
-        image: '../img/clipboardicon.svg',
+        image: './img/clipboardicon.svg',
         imageWidth: 35
       });
 
