@@ -20,3 +20,13 @@ img {
 #Formacion{
     text-align: right;
 }
+
+#SobreMi{
+    padding: 20px 0px;
+}
+
+@media (width < 1024px) {
+    #Formacion{
+        text-align: center;
+    }
+}
