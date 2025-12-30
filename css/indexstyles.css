@@ -21,8 +21,8 @@ img {
     text-align: right;
 }
 
-#SobreMi{
-    padding: 20px 0px;
+.secciones{
+    padding-top: 20px;
 }
 
 @media (width < 1024px) {
