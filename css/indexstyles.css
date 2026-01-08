@@ -10,6 +10,10 @@ footer h2{
     text-align: center;
 }
 
+h3{
+    padding-top: 20px;
+}
+
 img {
     aspect-ratio: 1/1;
     object-fit: contain;
@@ -25,8 +29,33 @@ img {
     padding-top: 20px;
 }
 
+.botones{
+    margin-bottom: 20px;
+}
+
+@media(width<768px){
+    body{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+        text-align-last: left;
+    }
+
+    li{
+        text-align: left;
+    }
+}
+
 @media (width < 1024px) {
     #Formacion{
+        text-align: center;
+    }
+}
+
+@media (width > 1023.98px) {
+    
+    #SobreMi h2{
         text-align: center;
     }
 }
