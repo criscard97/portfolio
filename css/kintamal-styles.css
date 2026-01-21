@@ -42,5 +42,14 @@ footer{
     h2{
         text-align: center;
     }
+    
+    .titulos-menu{
+        text-align: center;
+    }
 }
- 
+
+@media (width > 992px){
+    .titulos-menu{
+        text-align: left;
+    }
+}
