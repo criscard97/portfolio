@@ -9,3 +9,16 @@ h1 {
     font-size: 50px;
     padding: 20px 0px;
 }
+
+#VerDemo {
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    color: #000000;
+    font-weight: bold;
+}
+
+#VerDemo:hover{
+    background-color: #ffe2bc;
+    border-color: #ffe2bc;
+    color: #212121;
+}
