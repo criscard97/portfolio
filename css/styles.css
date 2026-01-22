@@ -10,3 +10,7 @@ body{
 #copyEmail{
     cursor: pointer;
 }
+
+#Regresar{
+    font-size: 18px;
+}
