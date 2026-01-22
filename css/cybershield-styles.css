@@ -3,3 +3,16 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
+
+footer{
+    margin-bottom: 30px;
+}
+
+#VerDemo{
+  background-color: #cfe3ff;
+  color: #373737;
+}
+
+#VerDemo:hover{
+  background-color: #b9d6ff;
+}
