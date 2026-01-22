@@ -43,13 +43,13 @@ footer{
         text-align: center;
     }
     
-    .titulos-menu{
+    /* .titulos-menu{
         text-align: center;
-    }
+    } */
 }
 
 @media (width > 992px){
-    .titulos-menu{
+    /* .titulos-menu{
         text-align: left;
-    }
+    } */
 }
