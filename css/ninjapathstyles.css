@@ -1,7 +1,38 @@
-h1{
-    font-family: "Architects Daughter", cursive;;
+h1 {
+    font-family: "Architects Daughter", cursive;
 }
-#span-titulo{
+
+footer{
+    margin-bottom: 30px;
+}
+
+.characters{
+    height: 200px;
+}
+
+#span-titulo {
     font-family: "Press Start 2P", system-ui;
     font-size: smaller;
+}
+
+#ElementosSection {
+    text-align: center;
+}
+
+@media (width < 992px) {
+
+    h2,
+    h3,
+    h4 {
+        text-align: center;
+    }
+
+    img{
+        display: block;
+    }
+
+    #ShinImg{
+        margin-bottom: 50px;
+    }
+
 }
