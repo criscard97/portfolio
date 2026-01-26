@@ -2,11 +2,11 @@ h1 {
     font-family: "Architects Daughter", cursive;
 }
 
-footer{
+footer {
     margin-bottom: 30px;
 }
 
-.characters{
+.characters {
     height: 200px;
 }
 
@@ -16,8 +16,20 @@ footer{
 }
 
 #ElementosSection {
-    text-align: center;
+    h4,p{
+       text-align: center; 
+    }
+    
 }
+
+#Orbe {
+    height: 80px;
+}
+
+#Enemy {
+    height: 80px;
+}
+
 
 @media (width < 992px) {
 
@@ -27,12 +39,22 @@ footer{
         text-align: center;
     }
 
-    img{
+    img {
         display: block;
     }
 
-    #ShinImg{
+    #ShinImg {
         margin-bottom: 50px;
+    }
+
+    #Orbe,
+    #Platform,
+    #Enemy {
+        margin-bottom: 100px;
+    }
+
+    #Platform {
+        height: 50px;
     }
 
 }
