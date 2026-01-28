@@ -16,18 +16,28 @@ footer {
 }
 
 #ElementosSection {
-    h4,p{
-       text-align: center; 
+
+    h2,
+    h4,
+    p {
+        text-align: center;
     }
-    
+
 }
+
 
 #Orbe {
     height: 80px;
+    margin-bottom: 100px;
 }
 
 #Enemy {
     height: 80px;
+    margin-bottom: 100px;
+}
+
+#Platform {
+    margin-bottom: 100px;
 }
 
 
@@ -45,12 +55,6 @@ footer {
 
     #ShinImg {
         margin-bottom: 50px;
-    }
-
-    #Orbe,
-    #Platform,
-    #Enemy {
-        margin-bottom: 100px;
     }
 
     #Platform {
