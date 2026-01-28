@@ -1,36 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Portfolio | Oki</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/okistyles.css" />
-    <link rel="shortcut icon" href="../img/portfolio-svgrepo-com.svg" type="image/x-icon" />
-</head>
-<body class="container">
-    <h1>Oki</h1>
-    <p>Oki es un videojuego 2D basado en phaser.</p>
-    <p>Se trata de un juego de aventura de un extraterrestre verde que recorrerá mundos para recolectar estrellas, evitando enemigos que se cruzarán en su camino</p>
-    
-    <footer class="row">
-      <div class="col-12 text-center my-5">
-        <a href="https://criscard97.github.io/oki/" id="VerDemo" class="btn btn-secondary">Ver
-          demo</a>
-      </div>
 
-      <div class="col-12 text-center my-2"> <!-- text-lg-start -->
-        <a href="../index.html" class="btn btn-danger" id="Regresar"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-            height="20" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16" stroke-width="1.5">
-            <path fill-rule="evenodd"
-              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
-          </svg> Regresar</a>
-      </div>
-    </footer>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Portfolio | Oki</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/okistyles.css" />
+  <link rel="shortcut icon" href="../img/portfolio-svgrepo-com.svg" type="image/x-icon" />
+</head>
+
+<body class="container">
+  <div class="row">
+    <div class="col-12 mb-5">
+      <h1>Oki</h1>
+    </div>
+    <div class="col-12">
+      <p>Oki es un videojuego 2D desarrollado en Phaser.</p>
+    </div>
+  </div>
+
+  <!-- Historia -->
+  <section class="row mb-5">
+    <div class="col-12">
+      <h2 class="mb-5 my-5">Historia</h2>
+      <p>
+        La historia sigue a Oki, un pequeño marciano verde que ha quedado varado
+        en un planeta desconocido, perdido en el vasto cosmos.
+      </p>
+      <p>
+        Rodeado de peligros y criaturas hostiles, Oki deberá recolectar la mayor
+        cantidad de estrellas posible. Gracias a su composición química, estas
+        estrellas le permiten acumular la energía necesaria para crear un portal
+        y regresar a su hogar.
+      </p>
+    </div>
+  </section>
+
+  <!-- Personajes y Modo de juego -->
+  <section class="row mb-5">
+    <!-- Personajes -->
+    <div class="col-12 col-lg-6 mb-4">
+      <h2 class="fw-semibold mb-3">Personajes</h2>
+      <p>
+        <strong>Oki</strong><br>
+        Es el protagonista del juego. Acompáñalo a recorrer distintos escenarios
+        mientras reúne estrellas y esquiva peligros.
+      </p>
+    </div>
+    <div class="col-12 col-lg-6">
+      <img src="../img/oki-imgs/oki.png" alt="Oki, el protagonista" class="img-fluid">
+    </div>
+
+    <!-- Modo de juego -->
+    <div class="col-12">
+      <h2 class="h4 fw-semibold mb-3">Modo de juego</h2>
+      <ul class="list-unstyled">
+        <li>🎮 <strong>Individual</strong>: experiencia para un solo jugador.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- Elementos del juego -->
+  <section class="row">
+    <div class="col-12">
+      <h2 class="h4 fw-semibold mb-4">Elementos del juego</h2>
+    </div>
+
+    <!-- Estrellas -->
+    <div class="col-12 col-md-4 mb-5 text-center text-md-start">
+      <h3 class="h6 fw-bold">⭐ Estrellas</h3>
+      <p>
+        Objetos astronómicos de gran poder. Su energía permite a Oki generar
+        el portal para volver a su dimensión y le otorga un escudo temporal
+        que lo protege del daño.
+      </p>
+      <img src="../img/oki-imgs/star.png" alt="Estrellas recolectables del juego Oki" class="img-fluid rounded">
+    </div>
+
+    <!-- Plataformas -->
+    <div class="col-12 col-md-4 mb-5 text-center text-md-start">
+      <h3 class="h6 fw-bold">🧱 Plataformas</h3>
+      <p>
+        Permiten acceder a zonas elevadas y explorar distintas áreas del escenario.
+      </p>
+      <img src="../img/oki-imgs/platform.png" alt="Plataformas del escenario en Oki" class="img-fluid rounded">
+    </div>
+
+    <!-- Enemigos -->
+    <div class="col-12 col-md-4 mb-5 text-center text-md-start">
+      <h3 class="h6 fw-bold">👹 Enemigos</h3>
+      <p>
+        Criaturas de estética demoníaca que infligen daño a Oki al entrar en contacto
+        con él.
+      </p>
+      <img src="../img/oki-imgs/enemy.png" alt="Enemigos del videojuego Oki" class="img-fluid rounded">
+    </div>
+  </section>
+
+
+
+
+  <footer class="row">
+    <div class="col-12 text-center my-5">
+      <a href="https://criscard97.github.io/oki/" id="VerDemo" class="btn btn-secondary">Ver
+        demo</a>
+    </div>
+
+    <div class="col-12 text-center my-2"> <!-- text-lg-start -->
+      <a href="../index.html" class="btn btn-danger" id="Regresar"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+          height="20" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16" stroke-width="1.5">
+          <path fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+        </svg> Regresar</a>
+    </div>
+  </footer>
 </body>
+
 </html>
