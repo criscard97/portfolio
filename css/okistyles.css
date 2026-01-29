@@ -5,9 +5,10 @@ body {
 
 h1 {
     font-family: "Sankofa Display", sans-serif;
-    font-size: 5rem;
+    font-size: 10rem;
     /* text-align: center; */
     margin-top: 50px;
+    text-align: center;
 }
 
 p {
@@ -15,14 +16,33 @@ p {
 }
 
 img {
-    aspect-ratio: 1/1;
+    aspect-ratio: 1 / 1;
     object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
+
+
+@media(width >= 1440px){
+
+    #Mushroom{
+        margin-top: 100px;
+    }
+
+}
+
+@media (width > 767.98px) and (width <992px) {
+    #Mushroom{
+            height: 100px;
+    }
+}
+
 
 @media (width < 992px) {
 
-    h1 {
-        text-align: center;
+    h1{
+        font-size: 120px;
     }
 
     h2 {
@@ -31,21 +51,50 @@ img {
         font-weight: 600;
     }
 
-    h3{
+    h3 {
         text-align: center;
         font-size: 30px;
+    }
+
+    ul {
+        text-align: center;
     }
 
     #DescBre {
         text-align: center;
     }
 
+    #Oki {
+        margin-bottom: 100px;
+    }
+
+    #PersonajeNombre {
+        margin: 40px 0px 10px 0px;
+    }
+
+    #SectionElementos{
+        text-align: center;
+    }
+
+    #TituloElementos{
+        margin-bottom: 40px;
+    }
+
+
 
 
 }
 
-@media (width < 768px){
-    p{
+@media (width < 768px) {
+    p {
         text-align: justify;
+    }
+
+    #Mushroom{
+        margin-top: 100px;
+    }
+    
+    #TituloElementos{
+        margin-bottom: 20px;
     }
 }
