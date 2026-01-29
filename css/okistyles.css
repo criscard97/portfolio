@@ -1,18 +1,51 @@
-body{
+body {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
 }
-h1{
+
+h1 {
     font-family: "Sankofa Display", sans-serif;
     font-size: 5rem;
     /* text-align: center; */
+    margin-top: 50px;
 }
 
-p{
+p {
     text-align: left;
 }
 
-img{
+img {
     aspect-ratio: 1/1;
     object-fit: contain;
+}
+
+@media (width < 992px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #DescBre {
+        text-align: center;
+    }
+
+
+
+}
+
+@media (width < 768px){
+    p{
+        text-align: justify;
+    }
 }
