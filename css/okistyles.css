@@ -23,6 +23,16 @@ img {
     display: block;
 }
 
+#VerDemo{
+    background-color: #95C020;
+    border-color: #95C020;
+}
+
+#VerDemo:hover{
+    background-color: #5F7B20;
+    border-color: #5F7B20;
+}
+
 
 @media(width >= 1440px){
 
@@ -85,7 +95,7 @@ img {
 
 }
 
-@media (width < 768px) {
+@media (width <= 768px) {
     p {
         text-align: justify;
     }
@@ -97,4 +107,6 @@ img {
     #TituloElementos{
         margin-bottom: 20px;
     }
+
+    
 }
