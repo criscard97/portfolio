@@ -39,7 +39,7 @@ footer{
     margin-bottom: 20px;
 }
 
-@media(width<768px){
+@media(width<=768px){
     body{
         text-align: center;
     }
@@ -50,6 +50,10 @@ footer{
 
     li{
         text-align: left;
+    }
+
+    .btn{
+        border-radius: 40px;
     }
 }
 
