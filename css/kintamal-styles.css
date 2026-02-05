@@ -3,10 +3,11 @@ body{
 }
 
 h1 {
+    text-align: center;
     font-family: "Patrick Hand SC", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 100px;
     padding: 20px 0px;
 }
 
@@ -14,6 +15,13 @@ h2{
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 25px;
+}
+
+img{   
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
@@ -50,4 +58,10 @@ footer{
     /* .titulos-menu{
         text-align: left;
     } */
+}
+
+@media(width >= 1440px){
+    img{
+        height: 650px !important;
+    }
 }

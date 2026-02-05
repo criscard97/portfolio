@@ -49,6 +49,36 @@ footer{
 #Btn2:hover{
     box-shadow: 0px 0px 15px #B4D3FF;
 }
+#Btn3{
+    background-color: #9D46A7;
+    border-color: #9D46A7;
+    color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+#Btn3:hover{
+    box-shadow: 0px 0px 15px #9D46A7;
+}
+#Btn4{
+    background-color: #95C020;
+    border-color: #95C020;
+    color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+#Btn4:hover{
+    box-shadow: 0px 0px 15px #95C020;
+}
+#Btn5{
+    background-color: #FFE57F;
+    border-color: #FFE57F;
+    color: #000;
+    transition: box-shadow 0.3s ease;
+}
+
+#Btn5:hover{
+    box-shadow: 0px 0px 15px #FFE57F;
+}
 
 #Formacion{
     text-align: right;
