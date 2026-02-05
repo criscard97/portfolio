@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    padding: 20px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 h2{
@@ -80,8 +80,28 @@ footer{
     box-shadow: 0px 0px 15px #FFE57F;
 }
 
+#CyR-title{
+    margin-top: 80px;
+}
+
 #Formacion{
     text-align: right;
+}
+
+#MC-title{
+    margin-top: 70px;
+}
+
+#MV-title{
+    margin-top: 70px;
+}
+
+#SobreMi{
+    margin-top: 80px;
+}
+
+#PD-title{
+    margin-top: 80px;
 }
 
 .secciones{
