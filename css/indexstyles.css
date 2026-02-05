@@ -27,6 +27,29 @@ footer{
     margin-bottom: 50px;
 }
 
+#Btn1{
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    color: #000000;
+    transition: box-shadow 0.3s ease;
+}
+
+#Btn1:hover{
+    box-shadow: 0px 0px 15px antiquewhite;
+}
+
+
+#Btn2{
+    background-color: #cfe3ff;
+    border-color: #cfe3ff;
+    color: #000000;
+    transition: box-shadow 0.3s ease;
+}
+
+#Btn2:hover{
+    box-shadow: 0px 0px 15px #B4D3FF;
+}
+
 #Formacion{
     text-align: right;
 }

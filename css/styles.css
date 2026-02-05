@@ -13,13 +13,13 @@ body{
 }
 
 #Regresar{
-    font-size: 18px;
+    font-size: 1.4rem;
 }
 
 #VerDemo {
     
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 @media(width<=768px){

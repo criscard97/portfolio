@@ -6,6 +6,10 @@ footer {
     margin-bottom: 30px;
 }
 
+p{
+    font-size: 1.3rem;
+}
+
 .characters {
     height: 200px;
 }
