@@ -37,6 +37,7 @@ footer{
 
 .botones{
     margin-bottom: 20px;
+    font-size: 1.3rem;
 }
 
 @media(width<=768px){
