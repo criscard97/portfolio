@@ -17,10 +17,15 @@ h3{
 }
 
 img {
-    aspect-ratio: 1/1;
+    aspect-ratio: 1 / 1;
     object-fit: contain;
-    width: 100%;
+    /* width: 100%; */
     height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 40px;
+    transition: box-shadow 0.3s ease;
 }
 
 footer{
@@ -84,8 +89,20 @@ footer{
     margin-top: 80px;
 }
 
+#copyEmail:hover{
+    box-shadow: 0px 0px 15px 3px #fff;
+}
+
 #Formacion{
     text-align: right;
+}
+
+#GitHub:hover{
+    box-shadow: 0 5px 20px 10px #b362ff !important;
+}
+
+#LinkedIn:hover{
+    box-shadow: 0 0px 20px 20px #0077B5 !important;
 }
 
 #MC-title{
