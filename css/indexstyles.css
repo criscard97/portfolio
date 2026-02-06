@@ -62,7 +62,7 @@ footer{
 }
 
 #Btn3:hover{
-    box-shadow: 0px 0px 15px #9D46A7;
+    box-shadow: 0px 0px 15px 5px #9D46A7;
 }
 #Btn4{
     background-color: #95C020;
@@ -98,11 +98,11 @@ footer{
 }
 
 #GitHub:hover{
-    box-shadow: 0 5px 20px 10px #b362ff !important;
+    box-shadow: 0px 5px 20px 10px #b362ff !important;
 }
 
 #LinkedIn:hover{
-    box-shadow: 0 0px 20px 20px #0077B5 !important;
+    box-shadow: 0px 0px 20px 20px #0077B5 !important;
 }
 
 #MC-title{
